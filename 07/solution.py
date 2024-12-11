@@ -77,7 +77,7 @@ for line in content:
             break
 
 
-print("The solution for part two is:", total)  # test = 3749, input = 303766880536
+print("The solution for part one is:", total)  # test = 3749, input = 303766880536
 
 # Part 2
 total = 0

@@ -120,7 +120,7 @@ for line in walking(content):
             total += 1
 
 
-print("The solution for part two is:", total)  # test = 41, input = 5208
+print("The solution for part one is:", total)  # test = 41, input = 5208
 
 # Part 2
 

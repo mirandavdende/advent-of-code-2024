@@ -1,6 +1,6 @@
 """ 
 Advent of Code 2024
-Day 8:
+Day 8: Resonant Collinearity
 """
 
 import time
@@ -17,9 +17,10 @@ for l in lines:
     content.append(l.replace("\n", ""))
 
 # Part 1
+# frequency = single lowercase letter, uppercase letter, or digit
 
 total = 0
-print("The solution for part two is:", total)
+print("The solution for part one is:", total)  # test = 14
 
 # Part 2
 

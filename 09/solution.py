@@ -67,7 +67,7 @@ for l in range(len(disk_map)):
 rearange_files(files)
 
 total = 0
-print("The solution for part two is:", total)
+print("The solution for part one is:", total)
 
 # Part 2
 

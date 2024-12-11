@@ -19,7 +19,7 @@ for l in lines:
 # Part 1
 
 total = 0
-print("The solution for part two is:", total)
+print("The solution for part one is:", total)
 
 # Part 2
 
