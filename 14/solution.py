@@ -1,6 +1,6 @@
 """ 
 Advent of Code 2024
-Day 12: Garden Groups
+Day 12: 
 """
 
 import time
@@ -17,8 +17,6 @@ for l in lines:
     content.append(l.replace("\n", ""))
 
 # Part 1
-# Area = the number of garden plots the region contains
-# Perimeter = the number of sides of garden plots
 
 total = 0
 print("The solution for part one is:", total)

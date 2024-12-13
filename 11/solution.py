@@ -46,10 +46,9 @@ def rule3(stone):
 
 def blinking(content, blink_n):
     for n in range(blink_n):
+        t01 = time.time()
         old_content = content
         content = []
-        t1 = time.time()
-        print("N blink", n, "during", round(t1 - t0, 4), "seconds")
         for stone in old_content:
             str_num = str(abs(stone))
             equal = len(str_num) % 2
@@ -61,7 +60,16 @@ def blinking(content, blink_n):
                 content.append(new_stone[1])
             else:
                 content.append(rule3(stone))
-
+        t1 = time.time()
+        print(
+            "N blink",
+            n,
+            "during",
+            round(t1 - t01, 3),
+            "seconds and the total time is",
+            round(t1 - t0, 3) / 60,
+            "minutes",
+        )
     return content
 
 
@@ -69,7 +77,7 @@ blink_n = 25
 new_stones = blinking(content, blink_n)
 total = len(new_stones)
 
-print("The solution for part one is:", total)  # test = 55312
+print("The solution for part one is:", total)  # test = 55312, input = 229043
 
 # Part 2
 blink_n = 75
